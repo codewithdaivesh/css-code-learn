@@ -1,0 +1,152 @@
+Que : What is css 
+ANS : CSS Stand cascading style sheet 
+used to designed web pages
+
+========================================================================
+
+css Synatx :- 
+
+
+h1{
+    color: red;
+   
+}
+
+[
+    h1:- Selector 
+    color : - property;
+    red :- value
+
+]
+
+Selector : - the selector is point to the html element you want to style ( like haeding , div , section and other html element)
+
+ex: - 
+
+html 
+
+<div> </div> 
+
+css 
+
+div{
+   background-color: red;
+   color: #fff;
+   padding: 44px; 
+}
+
+[div is html element and css use this as selector]
+
+
+==================================================
+
+type of selector in css
+
+1. id selector =>
+the id selector use the id attribute of html element to select specific element for the style
+
+id selector use hash sybol (#)
+
+html code : 
+
+<div id="wrapper">
+some text 
+
+</div>
+
+css code : 
+
+#wrapper{
+    background : red;
+    color: #fff;
+    padding: 16px 22px;
+}
+
+2. class selector =>
+
+the class selector select html element of specific class 
+class selector use period (.) 
+
+
+html code : 
+
+<div class="wrapper">
+some text 
+
+</div>
+
+css code : 
+
+.wrapper{
+    background : red;
+    color: #fff;
+    padding: 16px 22px;
+}
+
+3. Grouping Selector =>
+
+the grop (grouping) selector in css select 2 or more element with the same style 
+
+exmaple( h1 , h2 and p) element have applied same style can we use grouping selector
+
+
+html code : 
+
+<h1> codewithdaivesh </h1>
+<h2> Learn Coding with us </h2>
+<p> html , css , js, react js </p>
+
+css code : 
+
+h1 ,h2, p{
+    color : red;
+    font-weight: 700;
+}
+
+
+4.   element selector =>  
+
+this selector select html element with specific html element for styling
+
+html code  : 
+
+<h1> codewithdaivesh </h1>
+
+<div>
+Learn coding with use
+</div>
+
+<button> Learn More </button>
+
+css code : 
+
+h1{
+    color : red;
+    font-size: 44px;
+    text-align: center;
+}
+
+div{
+    background : aqua;
+    padding: 44px;
+}
+
+button{
+    background-color: orange;
+    color: #fff;
+    padding: 6px 18px;
+}
+
+5. universol selecor (*) =>
+
+select all html element
+
+ex >
+
+
+css code 
+
+*{
+    color : red;
+}
+
