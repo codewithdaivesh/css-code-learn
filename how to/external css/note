@@ -1,0 +1,6 @@
+external css =>
+
+with external stylesheet , ypu can change css entire website by just one file
+
+(you can make stylesheet seprate )
+
