@@ -1,0 +1,30 @@
+/* style for div  */
+
+div{
+    background-color: aqua;
+    color: red;
+    padding: 22px;
+    margin: 22px;
+}
+
+div h1{
+    font-size: 44px;
+    text-align: center;
+}
+
+div p{
+    font-size: 24px;
+    text-align: center;
+
+}
+
+/* style for list */
+
+ul li{
+   list-style: none;
+   background-color: orange;
+   padding: 18px;
+   margin-bottom: 8px;
+   width: 33%;
+   text-align: center;
+}

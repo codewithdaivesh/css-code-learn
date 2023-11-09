@@ -1,0 +1,18 @@
+comment =>
+
+comment are used to explain code
+
+it helpfull when you edit code at a later date
+
+1. single line comment => write a comment in one line
+
+/* single line comment */
+
+2. multi line comment - write comment in multiple lines
+
+/* thi is our 
+ multi lines
+ comments
+ */
+
+ 
