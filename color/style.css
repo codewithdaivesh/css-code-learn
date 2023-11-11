@@ -1,0 +1,15 @@
+h1{
+    color: orange;
+}
+
+h2{
+    color: #9A4444;
+}
+
+h3{
+    color : rgb(255,155,255)
+}
+
+h4{
+    color: hsl(110, 50,90);
+}

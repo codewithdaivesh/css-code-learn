@@ -1,0 +1,33 @@
+Color in css : 
+
+set forground color value of an element, and as well as background color
+
+ex : 
+
+HTML : 
+<h1> codewithdaivesh </h1>
+
+CSS : 
+
+h1{
+    color: red;
+}
+
+[
+    text color
+    border color
+]
+
+how to color element  : 
+
+1. by name : use color name , like red, black , yellow , orange .
+
+2. HEX : color can be specified hexadecimal (rr (red), GG (green), BB (blue))
+
+3. RGB :conbination of (RGB)  
+        r -> RED
+        g-> GREEN
+        b->  BLUE
+
+
+4. HSL : hue, saturation, lightness
