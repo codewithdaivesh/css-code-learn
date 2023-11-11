@@ -1,0 +1,20 @@
+css background : 
+
+add backgroung style in css
+================
+
+1. background by color : 
+
+we use color to background
+
+ex 
+
+selector {
+    background-color : red;
+}
+
+2. background image : 
+
+selector {
+    background-image : (url);  (url -> provide image name)
+}
